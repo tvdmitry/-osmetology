@@ -4005,3 +4005,9 @@
 		padding: 12px;
 	}
 }
+
+@media (max-width: 360px) {
+	.reviews-title {
+		white-space: pre-wrap;
+	}
+}

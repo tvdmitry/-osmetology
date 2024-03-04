@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed03e437-f21d-4f57-94c9-6502e3de9e51" name="Changes" comment="" />
+    <list default="true" id="ed03e437-f21d-4f57-94c9-6502e3de9e51" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/css/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -50,7 +55,7 @@
       <workItem from="1709266249682" duration="12799000" />
       <workItem from="1709297694540" duration="45523000" />
       <workItem from="1709446913286" duration="11695000" />
-      <workItem from="1709462874754" duration="75899000" />
+      <workItem from="1709462874754" duration="76210000" />
     </task>
     <servers />
   </component>
