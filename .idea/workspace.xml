@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed03e437-f21d-4f57-94c9-6502e3de9e51" name="Changes" comment="">
+    <list default="true" id="ed03e437-f21d-4f57-94c9-6502e3de9e51" name="Changes" comment="fix: fix title">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +56,25 @@
       <workItem from="1709266249682" duration="12799000" />
       <workItem from="1709297694540" duration="45523000" />
       <workItem from="1709446913286" duration="11695000" />
-      <workItem from="1709462874754" duration="76210000" />
+      <workItem from="1709462874754" duration="76628000" />
+      <workItem from="1709658662730" duration="7425000" />
     </task>
+    <task id="LOCAL-00001" summary="fix: fix title">
+      <option name="closed" value="true" />
+      <created>1709589510970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709589510971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: fix title" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix title" />
   </component>
 </project>
