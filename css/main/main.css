@@ -3084,6 +3084,10 @@
 }
 
 @media (max-width: 768px) {
+	.main-form__row-item {
+		margin-bottom: 25px;
+	}
+
 	.main-form__row,
 	.consultation-button {
 		flex-direction: column;

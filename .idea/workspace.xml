@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed03e437-f21d-4f57-94c9-6502e3de9e51" name="Changes" comment="fix: fix media" />
+    <list default="true" id="ed03e437-f21d-4f57-94c9-6502e3de9e51" name="Changes" comment="fix: fix gap">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +59,7 @@
       <workItem from="1709462874754" duration="76628000" />
       <workItem from="1709658662730" duration="8077000" />
       <workItem from="1709792225578" duration="8217000" />
-      <workItem from="1709892613807" duration="7849000" />
+      <workItem from="1709892613807" duration="9508000" />
     </task>
     <task id="LOCAL-00001" summary="fix: fix title">
       <option name="closed" value="true" />
@@ -82,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709979968669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix: fix gap">
+      <option name="closed" value="true" />
+      <created>1709980604364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709980604364</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: fix title" />
     <MESSAGE value="fix: fix media" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fix media" />
+    <MESSAGE value="fix: fix gap" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix gap" />
   </component>
 </project>
