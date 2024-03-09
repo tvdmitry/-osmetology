@@ -355,7 +355,6 @@
 }
 
 .get__content {
-	gap: 25px;
 	background: #FFD066;
 	display: inline-flex;
 	align-items: center;
@@ -365,6 +364,10 @@
 	max-width: 329px;
 	max-height: 57px;
 	border-radius: 16px 0 0 16px;
+}
+
+.online-discount__text {
+	margin-right: 25px;
 }
 
 .online-block {
@@ -3186,6 +3189,10 @@
 	.learning__column {
 		flex: 0 1 25%;
 		margin-bottom: 25px;
+	}
+
+	.online-discount__text {
+		margin-right: 20px;
 	}
 }
 
