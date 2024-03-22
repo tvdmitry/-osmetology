@@ -394,6 +394,14 @@
 		margin-left: 0;
 	}
 }
+
+@media (max-width: 693px) {
+	.main-slider__container {
+		height: auto !important;
+		max-height: none !important;
+	}
+}
+
 @media (max-width: 650px){
 
 	.mobile-menu{
@@ -722,6 +730,8 @@
 		font-size: 12px;
 	}
 }
+
+
 
 @media (max-width: 470px){
 	.curses{

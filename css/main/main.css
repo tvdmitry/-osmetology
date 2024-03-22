@@ -178,9 +178,11 @@
 .main-slider__container {
 	display: flex;
 	overflow: hidden;
+	max-height: 326px;
+	height: 326px;
 	align-items: center;
 	justify-content: space-between;
-	padding: 45px 20px
+	padding: 30px 0 0 50px;
 }
 
 
@@ -476,7 +478,7 @@
 }
 
 .main-engaged__content {
-	padding: 46px 60px 49px 64px;
+	padding: 49px 64px;
 	background: #FFF;
 	border-radius: 15px;
 	box-shadow: 0px 20px 20px 0px #C9DCE4;
@@ -503,7 +505,11 @@
 }
 
 .engaged-block {
-	max-width: 545px;
+	flex: 1 1 545px;
+}
+
+.engaged-block__image {
+	flex: 0 1 364px
 }
 
 .engaged-title {
@@ -528,7 +534,7 @@
 .main-advantages__content {
 	background: #FFF;
 	border-radius: 15px;
-	padding: 31px 38px;
+	padding: 30px 35px;
 	min-height: 152px;
 	box-shadow: 0px 20px 20px 0px #C9DCE4;
 }
@@ -558,9 +564,14 @@
 .main-advantages__column {
 	display: flex;
 	align-items: center;
-	padding: 0 10px;
 	margin-bottom: 20px;
 	flex: 0 1 33.333%;
+}
+
+.main-advantages__column:nth-child(4),
+.main-advantages__column:nth-child(5),
+.main-advantages__column:nth-child(6) {
+	margin-bottom: 0;
 }
 
 .advantages-text {
@@ -608,8 +619,13 @@
 	margin-right: 10px;
 }
 
+.learn__element_med, .learn__element_without-med {
+	max-height: 100px;
+}
+
 .learn__content {
 	color: #58595B;
+	line-height: 20px;
 	font-size: 16px;
 }
 
@@ -621,6 +637,7 @@
 
 .learn__element_docs {
 	font-weight: 600;
+	min-height: 100px;
 	flex: 0 1 100%;
 	margin-bottom: 20px;
 }
@@ -631,7 +648,7 @@
 }
 
 .learn__element_med {
-	flex: 0 1 50%;
+	flex: 1 1 46%;
 	max-width: 260px;
 	margin-right: 20px;
 }
@@ -735,6 +752,7 @@
 .know__column {
 	display: flex;
 	flex-direction: column;
+
 	padding: 0 10px;
 	min-height: 312px;
 	margin-bottom: 20px;
@@ -800,6 +818,9 @@
 	flex-direction: column;
 	min-height: 322px;
 	padding: 20px 20px 0 20px;
+	box-shadow: 0px 1.4666666984558105px 3.2592592239379883px 0px #0D293812,
+	0px 6.933333396911621px 12.740740776062012px 0px #0D29381C,
+	0px 18px 40px 0px #0D29382E;
 	background: linear-gradient(118.5deg, #FFFFFF 33.59%, #BEF5FF 154.85%);
 	border-radius: 15px;
 }
@@ -1106,25 +1127,22 @@
 	align-items: center;
 	margin: 0 -20px;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .main-watch__column {
 	padding: 0 20px;
-	flex: 0 1 50%;
-}
-
-.watch-image {
-	display: inline-flex;
-	max-width: 488px;
-	width: 488px;
 }
 
 .watch-block {
-	max-width: 400px;
+	padding: 0 20px;
+	flex: 1 1 470px;
 }
 
 .watch-image__course {
+	display: block;
+	max-width: 488px;
+	max-height: 287px;
 	border-radius: 15px;
 }
 
@@ -1134,6 +1152,12 @@
 	font-size: 40px;
 	line-height: 44px;
 	margin-bottom: 20px;
+	max-width: 408px;
+}
+
+.watch-block-image {
+	flex: 0 1 488px;
+	padding: 0 20px;
 }
 
 .watch-text {
@@ -1327,7 +1351,7 @@
 .pay-text {
 	font-size: 20px;
 	font-weight: 400;
-	line-height: 19px;
+	line-height: 26px;
 	color: #58595B;
 	margin-top: 20px;
 }
@@ -1375,7 +1399,7 @@
 }
 
 .main-try__content {
-	padding: 58px 0 58px 50px;
+	padding: 28px 0 0 50px;
 	overflow: hidden;
 	background: linear-gradient(225.72deg, #0088C3 -10.12%, #0F1F42 77.71%);
 	box-shadow: 0px 20px 20px 0px #C9DCE4;
@@ -1386,6 +1410,7 @@
 	font-size: 39px;
 	font-weight: 700;
 	margin-bottom: 20px;
+	min-width: 669px;
 	line-height: 43px;
 	color: #FFF;
 }
@@ -1394,6 +1419,7 @@
 	font-size: 16px;
 	margin-bottom: 64px;
 	font-weight: 400;
+	max-width: 520px;
 	line-height: 19px;
 	color: #FFF;
 }
@@ -1413,7 +1439,7 @@
 }
 
 .try-image__course {
-	/*min-height: 507px;*/
+	min-height: 412px;
 }
 
 .price__title {
@@ -1456,6 +1482,10 @@
 
 .try-block__text {
 	color: #FFF;
+	max-width: 152px;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: 400;
 }
 
 .try-button {
@@ -2059,6 +2089,7 @@
 
 .rewiews-video__item {
 	width: calc(25% - 75px / 4);
+	box-shadow: 0px 20px 20px 0px #C9DCE4;
 	height: 354px;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -2517,7 +2548,7 @@
 	}
 
 	.learn__row {
-		max-width: 420px;
+		max-width: max-content;
 	}
 
 	.learn-title {
@@ -2526,9 +2557,11 @@
 
 	.learn__element_med,
 	.learn__element_without-med {
-		max-width: 200px;
+		max-width: none;
 		flex-direction: column;
+		flex: 1 1 46%;
 		text-align: center;
+		min-height: 124px;
 	}
 
 	.know__column {
@@ -2562,6 +2595,15 @@
 	.main-engaged__row {
 		align-items: flex-end;
 		justify-content: space-between;
+	}
+
+	.main-advantages__column:nth-child(4),
+	.main-advantages__column:nth-child(5) {
+		margin-bottom: 20px;
+	}
+
+	.main-advantages__column:nth-child(6) {
+		margin-bottom: 0;
 	}
 
 	.engaged-title {
@@ -2686,6 +2728,18 @@
 }
 
 @media (max-width: 976px) {
+	.engaged-img {
+		max-width: 317px;
+	}
+
+	.main-engaged__row {
+		margin: 0 -18px;
+	}
+
+	.main-engaged__column {
+		padding: 0 18px;
+	}
+
 	.pick-title__block {
 		font-size: 16px;
 		line-height: 19px;
@@ -2794,7 +2848,7 @@
 	}
 
 	.watch-block {
-		max-width: 300px;
+
 	}
 
 	.pay-title__block {
@@ -2838,6 +2892,8 @@
 		top: -3px;
 		right: 9px;
 	}
+
+
 }
 
 @media (max-width: 850px) {
@@ -3202,11 +3258,11 @@
 
 @media (max-width: 815px) {
 	.learn__element_med, .learn__element_without-med {
-		max-width: 173px;
+		max-width: none;
 	}
 
 	.learn__row {
-		max-width: 366px;
+		max-width: max-content;
 	}
 
 	.learn__image {
@@ -3255,6 +3311,8 @@
 
 	.main-slider__container {
 		display: block;
+		height: auto;
+		max-height: none;
 		position: relative;
 	}
 
@@ -3364,6 +3422,8 @@
 	}
 }
 
+
+
 @media (max-width: 680px) {
 	.module-button__pdf {
 		min-width: 260px;
@@ -3387,6 +3447,12 @@
 
 	.know-img {
 		max-width: 90px;
+	}
+}
+@media (max-width: 693px) {
+	.main-slider__container {
+		height: auto !important;
+		max-height: none !important;
 	}
 }
 
@@ -3543,10 +3609,6 @@
 	.main-advantages__column {
 		margin-bottom: 25px;
 		padding: 0;
-	}
-
-	.main-advantages__content {
-		padding: 32px 26px;
 	}
 
 	.main-online {
@@ -3811,6 +3873,12 @@
 		font-size: 12px;
 		line-height: 15px;
 	}
+
+
+	.main-advantages__column:nth-child(5) {
+		margin-bottom: 20px !important;
+	}
+
 }
 
 @media (max-width: 465px) {
@@ -3828,6 +3896,10 @@
 
 	.tab-online {
 		margin-right: 15px;
+	}
+
+	.learn__element_docs {
+		min-height: 120px
 	}
 }
 
@@ -4103,7 +4175,7 @@
 	}
 
 	.learn__element_med, .learn__element_without-med {
-		max-width: 145px;
+		/*max-width: 145px;*/
 	}
 
 	.learn__element_med {
@@ -4111,7 +4183,7 @@
 	}
 
 	.learn__row {
-		max-width: 300px;
+		/*max-width: 300px;*/
 	}
 
 	.learn-title {
@@ -4126,6 +4198,8 @@
 		padding: 12px;
 	}
 }
+
+
 
 @media (max-width: 360px) {
 

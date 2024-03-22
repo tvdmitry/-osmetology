@@ -10,7 +10,7 @@ $(document).ready(function(){
 	})
 
 	$('.main-slider-seminar').slick({
-		slidesToShow: 2.5,
+		slidesToShow: 2,
 		infinite: false,
 		dots: false,
 		arrows: false,
