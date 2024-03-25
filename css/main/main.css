@@ -1010,8 +1010,8 @@
 	flex: 0 1 50%;
 }
 
-.module-image {
-
+.module-img {
+	max-width: 376px;
 }
 
 .module-block {
@@ -1021,8 +1021,8 @@
 .module-title {
 	color: #333333;
 	font-weight: 700;
-	font-size: 40px;
-	line-height: 44px;
+	font-size: 39px;
+	line-height: 43px;
 	margin-bottom: 40px;
 }
 
@@ -1050,7 +1050,7 @@
 	width: 225px;
 	padding: 18px 40px;
 	min-width: 225px;
-	min-height: 54px;
+	max-height: 54px;
 	border-radius: 10px;
 }
 
@@ -1378,14 +1378,14 @@
 	flex-direction: column;
 	max-width: 353px;
 	min-height: 270px;
-	padding: 37px 17px 44px 20px;
+	padding: 37px 27px 44px 20px;
 	background: #FFF;
 	border-radius: 15px;
 	box-shadow: 0px 20px 20px 0px #C9DCE4;
 }
 
 .pay__column-img {
-	min-height: 77px;
+	min-height: 67px;
 }
 
 .pay__column-one-image {
@@ -2834,7 +2834,7 @@
 	}
 
 	.module-title {
-		margin-top: 25px;
+		margin-top: 0;
 		font-size: 36px;
 		line-height: 39px;
 	}
@@ -2922,6 +2922,7 @@
 	.pay-title__block {
 		font-size: 16px;
 		margin-top: 14px;
+		line-height: 19px;
 	}
 
 	.pay-text {
@@ -2935,6 +2936,24 @@
 
 	.main-watch__content {
 		border-radius: 15px;
+	}
+
+	.main-try__content {
+		border-radius: 15px;
+	}
+
+	.main-module__content {
+		padding: 43px 0 43px 48px;
+	}
+
+	.pay__column-img {
+		max-height: 46px;
+		min-height: auto;
+	}
+
+	.pay__item {
+		padding: 25px 12px;
+		min-height: 200px;
 	}
 }
 
@@ -3061,6 +3080,14 @@
 	.main-try__content {
 		padding: 57px 0 23px 20px;
 	}
+
+	.module-img {
+		min-height: 376px;
+	}
+
+	.main-module__content {
+		overflow: hidden;
+	}
 }
 
 @media (max-width: 850px) {
@@ -3152,26 +3179,13 @@
 	/*	right: -11px;*/
 	/*}*/
 
-	.pay__row {
-		flex-wrap: wrap;
-	}
-
 	.pay__column {
 		flex: 1 1 auto;
 		margin-bottom: 30px;
 	}
 
 	.pay__item {
-		min-height: auto;
-	}
-
-	.pay-title__block {
-		font-size: 20px;
-	}
-
-	.pay-text {
-		font-size: 16px;
-		margin-top: 20px;
+		min-height: 200px;
 	}
 
 	.curses__item {
@@ -3239,6 +3253,44 @@
 	.try-title {
 		min-width: auto;
 	}
+
+	.try-image__course {
+		transform: translate(0%, 18%);
+	}
+}
+
+@media (max-width: 805px) {
+	.pay__row {
+		flex-wrap: wrap;
+	}
+
+	.pay__column-img,
+	.pay__column-image {
+		max-width: 40px;
+		max-height: 40px;
+	}
+
+	.pay-title__block {
+		margin-top: 0;
+	}
+
+	.pay__column-one-image {
+		display: flex;
+		align-items: center;
+	}
+
+	.pay__column {
+		display: block;
+	}
+
+	.pay__item {
+		max-width: none;
+		min-height: auto;
+	}
+
+	.pay__column:last-child {
+		margin-bottom: 0;
+	}
 }
 
 @media (max-width: 800px) {
@@ -3292,10 +3344,6 @@
 		margin-bottom: 25px;
 	}
 
-	.pay__column-one-image {
-		display: flex;
-	}
-
 	.pay-title__block {
 		margin-left: 20px;
 	}
@@ -3329,7 +3377,7 @@
 	.main-module__content {
 		max-height: 496px;
 		min-height: 496px;
-		padding: 30px 25px;
+		padding: 30px 20px;
 	}
 
 	.module-image > svg {
@@ -3360,6 +3408,19 @@
 
 	.main-slider__course-content {
 		line-height: 17px;
+	}
+
+	.module-img {
+		max-width: 250px;
+		min-height: 270px;
+	}
+
+	.module-image {
+		margin-bottom: 15px;
+	}
+
+	.pay__item {
+		padding: 30px 20px;
 	}
 }
 
@@ -3877,7 +3938,7 @@
 	}
 
 	.pay__item {
-		padding: 30px 20px;
+		padding: 23px 20px;
 	}
 
 	.main-advantages__row {
@@ -4174,6 +4235,44 @@
 	.learn-title {
 		max-width: 255px;
 	}
+
+	.try-title {
+		margin-bottom: 25px;
+	}
+
+	.try-description {
+		margin-bottom: 25px;
+	}
+
+	.main-try__item-one {
+		padding: 30px 20px 0 20px;
+	}
+
+	.try-image__course {
+		min-height: 284px;
+	}
+
+	.try-image__course {
+		transform: translate(0%, 0%);
+	}
+
+	.try-block {
+		margin-bottom: 29px;
+	}
+
+	.pay-title__block {
+		font-size: 20px;
+		line-height: 24px;
+		max-width: 142px;
+		margin-top: 0 !important;
+	}
+
+	.pay-text {
+		font-size: 16px;
+		line-height: 20px;
+		margin-top: 8px;
+	}
+
 }
 
 @media (max-width: 520px) {
