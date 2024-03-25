@@ -4615,6 +4615,7 @@
 @media (max-width: 400px) {
 	.online-discount {
 		right: -39px;
+		position: absolute;
 	}
 
 	.consultation-image__course {
