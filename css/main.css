@@ -3702,19 +3702,19 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 }
 .header__text {
 	font-weight: 700;
 	font-size: 14px;
-	color: #FFF;
+	color: #58595B;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 }
 .header__phone {
 	font-weight: 700;
 	font-size: 14px;
-	color: #FFF;
+	color: #58595B;
 	letter-spacing: 0.05em;
 	text-decoration: none;
 	position: relative;
