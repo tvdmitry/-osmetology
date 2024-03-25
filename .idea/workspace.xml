@@ -7,9 +7,6 @@
     <list default="true" id="ed03e437-f21d-4f57-94c9-6502e3de9e51" name="Changes" comment="fix: fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main/modules.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/main/modules.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main/payThree.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/main/payThree.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
       <workItem from="1710910962039" duration="5010000" />
       <workItem from="1710958783186" duration="2068000" />
       <workItem from="1711059248381" duration="8511000" />
-      <workItem from="1711212418955" duration="54446000" />
+      <workItem from="1711212418955" duration="55624000" />
     </task>
     <task id="LOCAL-00001" summary="fix: fix title">
       <option name="closed" value="true" />
@@ -140,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711341704101</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: fix">
+      <option name="closed" value="true" />
+      <created>1711358429911</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711358429911</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
