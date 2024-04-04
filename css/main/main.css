@@ -24,6 +24,7 @@
 .header--main {
 	position: relative;
 	z-index: 1;
+	margin-bottom: 20px;
 }
 
 .main-engaged {
@@ -2510,6 +2511,18 @@
 	.try-title {
 		min-width: auto;
 	}
+
+	.header {
+		padding-top: 40px;
+	}
+
+	.header--main {
+		margin-bottom: 20px;
+	}
+
+	.main-online {
+		padding-top: 118px;
+	}
 }
 
 @media (max-width: 1140px) {
@@ -2795,6 +2808,10 @@
 		display: none !important;
 	}
 
+	.online-img_mobile {
+		display: none !important;
+	}
+
 	.online-discount {
 		top: 45px;
 		box-shadow: 0px 21.600000381469727px 48px 0px #0D29382E;
@@ -2804,6 +2821,10 @@
 
 @media (min-width: 992px) {
 	.online-img_tablet {
+		display: none !important;
+	}
+
+	.online-img_mobile {
 		display: none !important;
 	}
 
@@ -3517,6 +3538,12 @@
 	}
 }
 
+@media (max-width: 769px) {
+	.online-discount {
+		top: 34px;
+	}
+}
+
 @media (max-width: 768px) {
 	.main-form__row-item {
 		margin-bottom: 25px;
@@ -3637,6 +3664,28 @@
 	.online-block {
 		margin-right: 0;
 	}
+
+	.online-img_tablet {
+		display: none !important;
+	}
+
+	.online-img {
+		display: block !important;
+	}
+
+	.online-img_tablet {
+		display: none !important;
+	}
+
+	.online-img {
+		display: none !important;
+	}
+
+	.online-img_mobile {
+		display: block !important;
+	}
+
+
 }
 
 @media (max-width: 815px) {
@@ -4360,8 +4409,8 @@
 		margin-bottom: 10px;
 	}
 
-	.online-discount {
-		top: 28px;
+	.header {
+		padding-bottom: 34px;
 	}
 }
 
@@ -4652,6 +4701,15 @@
 	.tariff-pick__button,
 	.tariff-know__button {
 		max-height: 54px;
+	}
+
+	.header {
+		padding-top: 44px;
+		/*padding-bottom: 17px;*/
+	}
+
+	.online-text {
+		font-weight: 500;
 	}
 }
 
