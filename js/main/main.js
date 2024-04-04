@@ -26,10 +26,22 @@ $(document).ready(function(){
 				}
 			},
 			{
-				breakpoint: 520,
+				breakpoint: 850,
 				settings: {
-					slidesToShow: 1.5,
+					slidesToShow: 1.35,
+				}
+			},
+			{
+				breakpoint: 740,
+				settings: {
+					slidesToShow: 1.1,
 					variableWidth: true
+				}
+			},
+			{
+				breakpoint: 450,
+				settings: {
+					slidesToShow: 1.1,
 				}
 			}
 		]
