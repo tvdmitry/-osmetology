@@ -1254,7 +1254,69 @@
 	padding: 20px 20px 49px 20px;
 	background: #FFF;
 	border-radius: 15px;
+}
+
+.learning-two__column-version-mobile {
+	display: none;
+}
+
+.main-learning-two {
+	margin-bottom: 90px;
+}
+
+.learning-two__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.learning-two__title {
+	margin-bottom: 40px;
+}
+
+.learning-two__column {
+	display: flex;
+	flex: 0 1 50%;
+}
+
+.learning-two-title {
+	white-space: nowrap;
+	margin-bottom: 40px;
+}
+
+.learning-two-title__block {
+	color: #58595B;
+	font-size: 20px;
+	font-weight: 700;
+	max-width: 93px;
+	line-height: 24px;
+	margin-top: 10px;
+}
+
+.learning-two-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	color: #58595B;
+	margin-top: 10px;
+}
+
+.learning-two__item {
+	display: flex;
+	flex-direction: column;
+	max-width: none;
+	background: #FFF;
+	border-radius: 15px;
+}
+
+.learning-two__doctor {
+	max-height: 371px;
+	padding: 20px 20px 49px 20px;
 	box-shadow: 0px 20px 20px 0px #C9DCE4;
+}
+
+.learning-version {
+	background: none;
+	box-shadow: none;
 }
 
 .course-slider {
@@ -2596,6 +2658,46 @@
 	.try-image__course {
 		transform: translate(0%, 24%);
 	}
+
+	.learning-two__column-version-img {
+		max-height: 257px;
+	}
+
+	.learning-two__column-img {
+		width: 150px;
+		height: 150px;
+	}
+
+	.learning-two__doctor {
+		padding: 13.71px 13.71px 34.78px 13.71px;
+		max-height: 280px;
+		width: 174px;
+	}
+
+	.learning-two__column-one-image {
+		margin-bottom: 6.85px;
+	}
+
+	.learning-two-title__block {
+		font-size: 14px;
+		line-height: 16.93px;
+		margin-bottom: 6.85px;
+		margin-top: 0;
+	}
+
+	.learning-two-text {
+		font-size: 12px;
+		line-height: 13.02px;
+	}
+
+	.learning-two__item {
+		border-radius: 10px;
+	}
+
+	.learning-two__title {
+		margin-bottom: 30px;
+	}
+
 }
 
 @media (max-width: 1100px) {
@@ -4465,6 +4567,60 @@
 
 	.header {
 		padding-bottom: 34px;
+	}
+
+	.learning-two__doctor {
+		/*margin-right: 54px;*/
+		padding: 20px;
+		max-height: 225px;
+		width: 145px;
+	}
+
+	.learning-two__column-version-img {
+		max-height: 235px;
+	}
+
+
+	.learning-two__column-img {
+		width: 105px;
+		height: 105px;
+	}
+
+	.learning-two__column-one-image {
+		margin-bottom: 10px;
+	}
+
+	.learning-two-title__block {
+		font-size: 16px;
+		line-height: 19.34px;
+		margin-bottom: 10px;
+	}
+
+	.learning-two-text {
+		font-size: 10px;
+		line-height: 11px;
+		margin-top: 0;
+	}
+
+	.learning-two__item {
+		border-radius: 15px;
+	}
+
+	.learning-two__column-version-mobile {
+		display: block;
+	}
+
+	.learning-two__column-version-img {
+		display: none;
+	}
+
+	.learning-two__column-version {
+		display: block;
+		flex: none;
+	}
+
+	.learning-two__title {
+		margin-bottom: 25px !important;
 	}
 }
 
