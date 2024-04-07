@@ -712,7 +712,7 @@
 		margin-bottom: 20px;
 	}
 	.footer__container{
-		padding-top: 30px;
+		padding-top: 40px;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
@@ -767,6 +767,10 @@
 
 	.ask-form__anot{
 		font-size: 11px;
+	}
+
+	.footer__logo {
+		margin-bottom: 28px;
 	}
 }
 

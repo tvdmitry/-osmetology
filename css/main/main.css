@@ -1850,7 +1850,7 @@
 }
 
 .main-discount__item-one {
-	max-width: 720px;
+	max-width: 570px;
 }
 
 .discount-block {
@@ -3310,6 +3310,7 @@
 
 	.discount-text {
 		font-size: 14px;
+		line-height: 18.2px;
 		margin-bottom: 20px;
 	}
 
@@ -3444,6 +3445,22 @@
 	.pay__item {
 		padding: 25px 12px;
 		min-height: 200px;
+	}
+
+	.main-discount__content {
+		padding: 49.22px 15.4px 0 20px;
+	}
+
+	.main-discount__row {
+		align-items: flex-start;
+	}
+
+	.discount-image__course {
+		max-height: 363px;
+	}
+
+	.discount-description {
+		line-height: 18.56px;
 	}
 }
 
@@ -3653,7 +3670,8 @@
 	.course-slider,
 	.main-pay,
 	.main-try,
-	.main-discount {
+	.main-discount,
+	.main-learning-two {
 		margin-bottom: 60px;
 	}
 
@@ -4496,7 +4514,8 @@
 	.main-learning,
 	.main-advantages,
 	.course-slider,
-	.main-try {
+	.main-try,
+	.main-learning-two {
 		margin-bottom: 50px;
 	}
 
