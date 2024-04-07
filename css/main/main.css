@@ -35,11 +35,9 @@
 	max-width: 470px;
 }
 
-.pick__column-one-image {
-	display: block;
-	text-align: left;
-	max-height: 23px;
-}
+/*.pick__column-one-image {*/
+/*	max-height: 23px;*/
+/*}*/
 
 .header--main .burger-small svg rect {
 	fill: #fff;
@@ -2022,7 +2020,8 @@
 
 .pick__column-img {
 	display: inline-flex;
-	max-height: 48px;
+	max-height: 50px;
+	text-align: left;
 }
 
 .pick__column {
@@ -3338,6 +3337,10 @@
 
 	.main-tariff__wrapper {
 		border-radius: 20px;
+	}
+
+	.pick__column-img {
+		max-height: 34px;
 	}
 }
 
@@ -5473,6 +5476,10 @@
 
 	.online-text {
 		font-weight: 500;
+	}
+
+	.pick__column-img {
+		max-height: 24px;
 	}
 }
 
