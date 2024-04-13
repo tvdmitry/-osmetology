@@ -387,7 +387,7 @@
 	transition: .3s;
 
 	&:hover {
-		color: #FFF;
+		color: #687281;
 	}
 }
 
@@ -404,7 +404,7 @@
 	transition: .3s;
 
 	&:hover {
-		background-color: #333333;
+		background-color: #C2CEDF;
 	}
 }
 
