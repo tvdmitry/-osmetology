@@ -1964,6 +1964,7 @@
 
 .main-discount__content {
 	padding-left: 50px;
+	padding-top: 33px;
 	background: linear-gradient(262.78deg, #BEF5FF -168.14%, #BEF5FF -116.54%, #39C7DF -30.48%, #119FE1 89.86%);
 	box-shadow: 0px 20px 20px 0px #C9DCE4;
 	border-radius: 20px;
